@@ -1,0 +1,23 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Biometrics" parent="Theme.MaterialComponents.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+        <item name="colorPrimary">@color/peach</item>
+        <item name="colorPrimaryVariant">@color/peach2</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <!-- Secondary branding color -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorOnSecondary">@color/black</item>
+
+        <!-- Background color -->
+        <item name="android:colorBackground">@color/grey_800</item>
+
+        <!-- Surface color (e.g., cards, buttons) -->
+        <item name="colorSurface">@color/black</item>
+
+        <!-- Text and icon colors on the surface -->
+        <item name="colorOnSurface">@color/white</item>
+    </style>
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFFFFF</color>
+    <color name="peach">#f6c492</color>
+    <color name="peach2">#f6d992</color>
+    <color name="black">#000000</color>
+    <color name="peach3">#f6b092</color>
+    <color name="grey">#aaa</color>
+    <color name="darkgrey">#ff424242</color>
+    <color name="grey_900">#212121</color> <!-- Dark Grey -->
+    <color name="grey_800">#424242</color> <!-- Medium Grey -->
+    <color name="grey_700">#616161</color> <!-- Lighter Grey -->
+    <color name="teal_200">#80CBC4</color>
+    <color name="teal_700">#00796B</color>
+    <color name="purple_500">#a46ede</color>
+    <color name="purple_700">#5f249f</color>
+    <color name="purple_200">#e5d5f6</color>
+    <color name="peach4">#fff1e0</color>
+    <color name="darkerpeach">#FF9874</color>
+
+
+</resources>
