@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignInActivity">
+
+    cardview
+
+     <com.google.android.material.textfield.TextInputLayout
+         android:id="@+id/enterEmail"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="12dp"
+        android:hint="Enter your email"
+         android:layout_centerHorizontal="true"
+         android:layout_marginTop="200dp"
+         app:boxBackgroundMode="outline"
+         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/emailField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+        android:id="@+id/passwordRegLayout"
+        android:layout_width="300sp"
+        android:layout_height="70sp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/enterEmail"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="10dp"
+        android:hint="Password"
+        app:boxStrokeWidth="2dp"
+        app:boxStrokeWidthFocused="2dp"
+        app:boxBackgroundMode="outline"
+        app:endIconMode="password_toggle">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/passwordField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+        android:id="@+id/passwordRegConfirmLayout"
+        android:layout_width="300sp"
+        android:layout_height="70sp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/passwordRegLayout"
+        android:layout_centerVertical="true"
+        android:hint="Confrim password"
+        app:boxStrokeWidth="2dp"
+        app:boxStrokeWidthFocused="2dp"
+        app:boxBackgroundMode="outline"
+        app:endIconMode="password_toggle">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/confirmPasswordField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnRegister"
+        android:layout_width="147dp"
+        android:layout_height="65dp"
+        android:layout_below="@+id/passwordRegConfirmLayout"
+        android:layout_centerHorizontal="true"
+        android:text="Register"
+        android:textSize="16sp"
+        app:cornerRadius="3sp" />
+
+
+
+</RelativeLayout>
